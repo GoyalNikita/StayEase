@@ -6,7 +6,7 @@ Nikita Goyal
 
 ### Overview
 
-StayEase is a RESTful API service designed to streamline the room booking process for a hotel management aggregator application. This application is built using Spring Boot and MySQL to manage and persist data. The service includes authentication and authorization using JWT tokens and supports three roles: CUSTOMER, HOTEL_MANAGER, and ADMIN.
+StayEase is a RESTful API service designed to streamline the room booking process for a hotel management aggregator application. This application is built using Spring Boot and MySQL to manage and persist data. The service includes authentication and authorization using JWT tokens and supports three roles: CUSTOMER, MANAGER, and ADMIN.
 
 
  
@@ -151,11 +151,11 @@ Use the following command to run the unit tests :
 - Create Hotel : POST /hotels
 - Delete Hotel : Delete /hotels/{hotelId}
 
-#### iii. HOTEL_MANAGER only
+#### iii. MANAGER only
 - Update Hotel : PUT /hotels/{hotelId}
 - Cancel Booking : DELETE /bookings/{bookingId}
 
-#### iv. Both ADMIN and HOTEL_MANAGER
+#### iv. Both ADMIN and MANAGER
 - Read USER : GET /users
 - Read USER : GET /users/{userId}
 - Read USER : GET /users/emailId
@@ -170,4 +170,4 @@ Use the following command to run the unit tests :
 ## Postman Collection
 
 You can use the following Postman Collection to test the API:
-[StayEase Postman Collection](https://www.postman.com/red-firefly-736811.postman.co/workspace/stayease/collection/28208818-8edb6a1f-eaed-4095-8966-0dac8cc77734?action=share&creator=28208818)
+[StayEase Postman Collection](https://new666-9823.postman.co/workspace/New-Workspace~446ac2dc-32b8-4882-b3de-4aba165c8ad5/collection/36335262-6130515d-78bc-4988-b8eb-64c317aad9dd?action=share&creator=36335262)
